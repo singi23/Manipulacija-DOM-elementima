@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #login-container {
+    width: 460px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  form label,
+  form input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form input {
+    padding: 8px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form div {
+    margin: 16px 0px;
+  }
+  
+  .valid {
+    border-color: rgb(0, 255, 0);
+  }
+  
+  .invalid {
+    border-color: red;
+  }
+  
+  #username-container {
+    position: relative;
+  }
+  
+  #password-container {
+    position: relative;
+  }
+  
+  .fa-check {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.65rem;
+    color: rgb(4, 217, 4);
+    font-size: 1.25rem;
+  }
+  
+  .fa-x {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.65rem;
+    color: red;
+    font-size: 1.25rem;
+  }
+  
+  input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    color: #000000;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+  }
+  
